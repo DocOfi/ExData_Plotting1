@@ -1,3 +1,9 @@
+## Downloading the data
+fileurl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
+download.file(fileurl, destfile = "household_power_consumption.zip")
+dateDownloaded <- date()
+print(dateDownloaded)
+## [1] "Sun Dec 13 13:02:11 2015"
 ## Reading the data in R
 elec <- read.csv("household_power_consumption.txt", header = TRUE, stringsAsFactors = FALSE, sep = ";", na.strings = "?")
 ## Converting the Date Variable from Character to Date
