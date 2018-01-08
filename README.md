@@ -1,3 +1,7 @@
+## Course Description
+
+This repository contains my course project 1 submitted through GitHub for the course Exploratory Data Analysis in Coursera. The course covers the essential exploratory techniques for summarizing data. Exploratory techniques are important for eliminating or sharpening potential hypotheses about the world that can be addressed by the data. 
+
 ## Introduction
 
 This assignment uses data from
@@ -111,4 +115,5 @@ The four plots that you will need to construct are shown below.
 ### Plot 4
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+
 
